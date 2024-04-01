@@ -74,8 +74,8 @@ FILE_NAME=frp_${FRP_VERSION}_linux_${PLATFORM}
 
 # download
 if [ $GOOGLE_HTTP_CODE == "200" ]; then
-    wget -P ${WORK_PATH} https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/${FILE_NAME}.tar.gz -O ${FILE_NAME}.tar.gz
-    wget -P ${WORK_PATH} https://raw.githubusercontent.com/${REPO}/master/${FRP_NAME}.toml -O ${FRP_NAME}.toml
+    wget -P ${WORK_PATH} https://gh.151314.xyz/https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/${FILE_NAME}.tar.gz -O ${FILE_NAME}.tar.gz
+    wget -P ${WORK_PATH} https://gh.151314.xyz/https://raw.githubusercontent.com/${REPO}/master/${FRP_NAME}.toml -O ${FRP_NAME}.toml
 else
     if [ $PROXY_HTTP_CODE == "200" ]; then
         wget -P ${WORK_PATH} ${PROXY_URL}https://github.com/fatedier/frp/releases/download/v${FRP_VERSION}/${FILE_NAME}.tar.gz -O ${FILE_NAME}.tar.gz
