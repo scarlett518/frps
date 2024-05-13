@@ -2,13 +2,14 @@ bindAddr = "0.0.0.0"
 bindPort = 5443
 kcpBindPort = 5443
 
-vhostHTTPPort = 5000
-vhostHTTPSPort = 5001
+vhostHTTPPort = 5444
+vhostHTTPSPort = 5445
 
 transport.maxPoolCount = 2000
 transport.tcpMux = true
 transport.tcpMuxKeepaliveInterval = 60
 transport.tcpKeepalive = 7200
+heartbeatTimeout = 90
 transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
