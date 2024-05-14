@@ -4,7 +4,7 @@ kcpBindPort = 5443
 
 vhostHTTPPort = 5443
 vhostHTTPSPort = 5443
-transport.tls.disableCustomTLSFirstByte = false
+
 
 transport.maxPoolCount = 2000
 transport.tcpMux = true
