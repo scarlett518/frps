@@ -2,8 +2,9 @@ bindAddr = "0.0.0.0"
 bindPort = 5443
 kcpBindPort = 5443
 
-vhostHTTPPort = 5444
-vhostHTTPSPort = 5445
+vhostHTTPPort = 5443
+vhostHTTPSPort = 5443
+transport.tls.disableCustomTLSFirstByte = false
 
 transport.maxPoolCount = 2000
 transport.tcpMux = true
