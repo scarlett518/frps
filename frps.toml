@@ -10,7 +10,7 @@ transport.maxPoolCount = 2000
 transport.tcpMux = true
 transport.tcpMuxKeepaliveInterval = 60
 transport.tcpKeepalive = 7200
-heartbeatTimeout = 90
+transport.heartbeatTimeout = 90
 transport.tls.force = false
 
 webServer.addr = "0.0.0.0"
