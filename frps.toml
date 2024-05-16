@@ -30,7 +30,7 @@ auth.token = "jknxsxHBFp1KLW39"
 maxPortsPerClient = 5
 
 allowPorts = [
-  { start = 10000, end = 65535 }
+  { start = 1, end = 65535 }
 ]
 
 udpPacketSize = 1500
