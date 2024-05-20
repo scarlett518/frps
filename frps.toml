@@ -2,8 +2,8 @@ bindAddr = "0.0.0.0"
 bindPort = 5443
 kcpBindPort = 5443
 
-vhostHTTPPort = 5443
-vhostHTTPSPort = 5443
+vhostHTTPPort = 5444
+vhostHTTPSPort = 5445
 
 
 transport.maxPoolCount = 2000
@@ -34,4 +34,4 @@ allowPorts = [
 ]
 
 udpPacketSize = 1500
-natholeAnalysisDataReserveHours = 168
+natholeAnalysisDataReserveHours = 1440
