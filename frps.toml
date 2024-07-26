@@ -6,13 +6,6 @@ vhostHTTPPort = 5444
 vhostHTTPSPort = 5445
 
 
-transport.maxPoolCount = 2000
-transport.tcpMux = true
-transport.tcpMuxKeepaliveInterval = 60
-transport.tcpKeepalive = 7200
-transport.heartbeatTimeout = 90
-transport.tls.force = false
-
 webServer.addr = "0.0.0.0"
 webServer.port = 6443
 webServer.user = "admin"
@@ -34,5 +27,3 @@ allowPorts = [
   { start = 1, end = 65535 }
 ]
 
-udpPacketSize = 1500
-natholeAnalysisDataReserveHours = 1440
