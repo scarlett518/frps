@@ -21,9 +21,9 @@ enablePrometheus = true
 auth.method = "token"
 auth.token = "jknxsxHBFp1KLW39"
 
-maxPortsPerClient = 5
+maxPortsPerClient = 3
 
 allowPorts = [
-  { start = 1, end = 65535 }
+  { start = 10000, end = 65535 }
 ]
 
