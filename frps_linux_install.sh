@@ -12,7 +12,7 @@ Font="\033[0m"
 # fonts color
 
 # variable
-FRP_VERSION=0.62.1
+FRP_VERSION=0.65.0
 REPO=scarlett518/frps
 WORK_PATH=$(dirname $(readlink -f $0))
 FRP_NAME=frps
